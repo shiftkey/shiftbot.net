@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://shiftbot.net/"
 languageCode = "en-us"
 title = "shiftbot"
 theme = "hugo-agency-theme"
