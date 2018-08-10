@@ -1,0 +1,60 @@
+# Site settings
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "shiftbot"
+theme = "hugo-agency-theme"
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "shiftbot"
+  description = "Doing robot things"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  [params.navigation]
+    brand = "shiftbot"
+    about = "About"
+
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    subtitle = "Doing Robot Things"
+    buttonText = "Show me"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    subtitle = "These are some of the ideas underway"
+    endpoint = "<br/>Coming Soon"
+
+    [[params.about.events]]
+      img = "1.jpg"
+      title = "Please Hold"
+      description = "After a pull request has been reviewed, ensure the reviewer waits for 24 hours before merging. This gives our distributed team time to add any last feedback before it is merged."
+
+    [[params.about.events]]
+      img = "2.jpg"
+      title = "Contributor Shepherd"
+      description = "A guide for new contributors to help them find tasks to work on, and also greet them when opening a pull request."
+
+
